@@ -6,7 +6,7 @@ const Navbar = () => {
   const location = useLocation();
 
   const logout = () => {
-    navigate("/");
+    navigate("/Admin_dashboard/");
   };
   const report = () => {
     navigate("/report");
