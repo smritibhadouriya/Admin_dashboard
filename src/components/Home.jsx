@@ -14,8 +14,9 @@ import  Google from '../assets/linkedin.webp'
 import Profile from '../assets/react.svg'
 
 const Home = () => {
-    const data = useMemo(
-      () => [
+  const [data, setData] = useState([]);
+    const datas = 
+      [
         {
           icon: Back,
           name: 'Progress Task',
@@ -64,12 +65,13 @@ const Home = () => {
           progress: 46,
           color: 'red',
         },
-      ],
-      []
-    );
+      ]
   
-    const columns = useMemo(
-      () => [
+      useEffect(() => {
+          setData(datas);
+        }, []);
+      
+    const columns = [
         {
           header: '',
           accessorFn: (row) => row.icon,
@@ -107,11 +109,8 @@ const Home = () => {
               readOnly
               className={`w-full h-2 bg-gray-200 rounded-lg accent-${row.original.color}-500`}
             />
-          ),
-        },
-      ],
-      []
-    );
+          ),}
+        ]
     
    
 
