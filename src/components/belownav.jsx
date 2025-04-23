@@ -4,7 +4,7 @@ const BelowNav = () => {
   const navigate = useNavigate();
 
   const logout = () => {
-    navigate("/Admin_dashboard/")
+    navigate("/")
   }
   const report = () => {
     navigate("/report")

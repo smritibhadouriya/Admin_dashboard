@@ -22,7 +22,7 @@ const Signup = () => {
   };
   const SigninButton=()=>
   {
-    navigate("/Admin_dashboard/")
+    navigate("/")
   }
 
   const handleGoogle = () => {
