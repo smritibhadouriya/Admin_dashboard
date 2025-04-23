@@ -1,5 +1,5 @@
 <h1>Admin Dashboard </h1>
- <p>A Admin Dashboard made up with <b>Reactjs</b>  and <b>TailwindCss</b></p>
+ <p>A Admin Dashboard built using <b>Reactjs</b>  and <b>TailwindCss</b></p>
 🚀 Run the app by:<br/>
  <b>npm run dev</b>
 
