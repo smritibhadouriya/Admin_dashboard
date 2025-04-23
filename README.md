@@ -1,7 +1,7 @@
 <h1>Admin Dashboard </h1>
  <p>A Admin Dashboard built using <b>Reactjs</b>  and <b>TailwindCss</b></p>
 🚀 Run the app by:<br/>
- <b>npm install</b>
+ <b>npm install</b><br />
  <b>npm run dev</b>
 
  <h2> ✨Features</h2>
