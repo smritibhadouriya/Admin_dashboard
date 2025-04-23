@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter,Route,Routes } from 'react-router-dom'
+import { HashRouter,Route,Routes } from 'react-router-dom'
 import Login from '../pages/Login.jsx'
 import Signup from '../pages/Signup.jsx'
 import Dashboard from '../pages/Dashboard.jsx'
@@ -16,7 +16,7 @@ import Level3 from '../components/Level3.jsx'
 const AppRoutes = () => {
   return (
    <>
-   <BrowserRouter>
+   <HashRouter>
         <Routes>
                 <Route path='/' element={(<Login />)} />
                 <Route path='/signup' element={(<Signup />)} />
@@ -33,7 +33,7 @@ const AppRoutes = () => {
                     <Route path="Level3" element={<Level3 />} />
                </Route>
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
   )
 }
